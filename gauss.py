@@ -1,7 +1,6 @@
 from skimage.io import imread, imsave
 from numpy import clip
 from skimage import img_as_ubyte 
-import math
 import numpy as np
 
 img = imread ('https://stepik.org/media/attachments/lesson/61037/tiger-gray-small.png')
@@ -27,6 +26,7 @@ img_out = img_out [2:(img_out.shape[0]-2), 2:(img_out.shape[1]-2)]
 img_out = clip(img_out, 0, 255)
 img_out = np.array (img_out, dtype=np.uint8)
 
-
+# сравнение с тестовой картинкой
 im2 = imread ('https://stepik.org/media/attachments/lesson/61037/gaussian-tiger.png')
 np.array_equal (img_out, im2)
+# True
