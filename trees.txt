@@ -1,0 +1,4 @@
+lat	lon	icon	iconSize	iconOffset
+59.9288	30.2773	Ol_icon_blue_example.png	24,24	0,-24
+59.9287	30.2774	Ol_icon_blue_example.png	24,24	0,-24
+
